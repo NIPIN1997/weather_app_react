@@ -1,0 +1,52 @@
+.backgroundVideo {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+}
+
+.header {
+  z-index: 1;
+  text-align: center;
+  color: white;
+  font-weight: bolder;
+}
+
+.content {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 50%;
+  gap: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(100, 99, 99);
+  opacity: 70%;
+  padding: 30px;
+  margin-bottom: 20px;
+}
+
+.smallDivs {
+  color: black;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: white;
+  color: black;
+  text-align: center;
+}
+
+.smallDivContent {
+  font-size: 20px;
+}
+
+.searchBar {
+  margin-top: 50px;
+  color: white;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 30px;
+  font-weight: bold;
+}
