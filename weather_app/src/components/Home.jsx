@@ -53,7 +53,12 @@ export function Home() {
         setBackgroundVideo("/rain.mp4");
       } else if (currentWeather === "Clouds") {
         setBackgroundVideo("/clouds.mp4");
-      } else {
+      } 
+      else if(currentWeather==="Thunderstorm")
+      {
+        setBackgroundVideo("/thunderstorm.mp4");
+      }
+      else {
         setBackgroundVideo("/sunny.mp4");
       }
       setweather(weatherData.weather[0].main);
